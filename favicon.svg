@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="emergGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0d9488" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Squircle Badge matching UI -->
+  <rect width="64" height="64" rx="16" fill="url(#emergGrad)" filter="url(#shadow)" />
+
+  <!-- Crisp Stethoscope Clinical Icon (White) -->
+  <g transform="translate(14, 14)" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M4 2v6a8 8 0 0 0 16 0V2" />
+    <path d="M2 2h4" />
+    <path d="M18 2h4" />
+    <path d="M12 16v8a6 6 0 0 0 12 0v-3" />
+    <circle cx="24" cy="21" r="3" fill="#ffffff" />
+  </g>
+</svg>
